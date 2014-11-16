@@ -57,8 +57,6 @@
 
 		h2 {
 			font: bold 2.2rem Open sans, sans-serif;
-			padding-top: 1rem;
-			padding-bottom: 1rem;
 		}
 
 		h3 {
@@ -948,6 +946,15 @@
 p {
   padding: 10px;
   font: 1.6rem 'Roboto-thin', sans-serif
+}
+
+/*Description*/
+#description {
+	color: #474a47;
+}
+
+#description h2 {
+	color: #871d29;
 }
 
 /*Sponsor*/
