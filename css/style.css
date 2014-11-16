@@ -51,6 +51,16 @@
 		line-height: 1.5em;
 	}
 
+		h1 {
+			font: bold 5rem Open sans, sans-serif;
+		}
+
+		h2 {
+			font: bold 2.2rem Open sans, sans-serif;
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+		}
+
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
 			color: inherit;
@@ -69,10 +79,10 @@
 
 	h2::after, h3::after{
 	  content: '';
-	  width: 5%;
+	  width: 7%;
+	  height: 5px;
 	  display: block;
 	  background: #2c79a2;
-	  height: 10px;
 	  margin: 30px auto;
 	  line-height: 1.1;
 	}
@@ -845,13 +855,6 @@
 		{
 		}
 
-			#header header h1
-			{
-				font-size: 2.25em;
-				line-height: 1.25em;
-				margin-bottom: 0;
-			}
-
 			#header header p
 			{
 				margin-top: 1.25em;
@@ -884,13 +887,6 @@
 			padding: 5em 0 5em 0;
 			margin: 0;
 		}
-
-			.main > header h2
-			{
-				font-size: 2.25em;
-				font-weight: 100;
-				margin-bottom: 0;
-			}
 
 			.main > header p
 			{
@@ -948,6 +944,11 @@
 				padding-top: 0;
 				background: #fff;
 			}
+
+p {
+  padding: 10px;
+  font: 1.6rem 'Roboto-thin', sans-serif
+}
 
 /*Location*/
 
