@@ -967,9 +967,11 @@ p {
 }
 
 #sponsor img {
-	width: 25%;
-	padding: 20px;
-	vertical-align: middle;
+    min-width: 250px;
+    width: 25%;
+    max-width: 900px;
+    padding: 20px;
+    vertical-align: middle;
 }
 
 /*Location*/
