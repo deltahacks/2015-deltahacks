@@ -66,7 +66,6 @@
 
 		#header footer
 		{
-			padding-top: 1.25em;
 		}
 	
 /*********************************************************************************/
@@ -80,7 +79,7 @@
 	
 		.main > header
 		{
-			padding: 3.5em 2em 3.5em 2em;
+			padding: 2em 1em 1em 2em;
 		}
 
 			.main > header h2

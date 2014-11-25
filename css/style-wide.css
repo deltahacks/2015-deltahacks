@@ -13,3 +13,13 @@
 		font-size: 15pt;
 		line-height: 1.75em;
 	}
+
+  .main > header
+  {
+    padding: 2em 0 2em 0;
+  }
+
+  .main > .content
+  {
+    padding: 2em 0 2em 0;
+  }
