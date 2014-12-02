@@ -178,6 +178,7 @@
 
 	header
 	{
+		margin-top: 1em;
 		margin-bottom: 1em;
 	}
 
@@ -724,8 +725,8 @@
 
 		.feature-icon
 		{
-			display: inline-block;
-			position: relative;
+/*			display: inline-block;
+			position: relative;*/
 			padding-bottom: 5em;
 			margin-bottom: 2.75em;
 			cursor: default;
@@ -743,7 +744,7 @@
 				line-height: 2.1em;
 			}
 
-			.feature-icon:before
+/*			.feature-icon:before
 			{
 				content: '';
 				background: #666;
@@ -767,7 +768,7 @@
 				height: 4.35em;
 				background: #666;
 				margin-left: -0.5px;
-			}
+			}*/
 
 			.dark .feature-icon
 			{
@@ -838,10 +839,6 @@
 		color: #fff;
 	}
 
-		#header header
-		{
-		}
-
 			#header header p
 			{
 				margin-top: 1.25em;
@@ -859,7 +856,7 @@
 	.main
 	{
 		position: relative;
-		margin-bottom: 2em;
+		/*margin-bottom: 2em;*/
 	}
 
 		.main > header
