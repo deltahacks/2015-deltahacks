@@ -173,7 +173,7 @@
 
 	p, ul, ol, dl, table
 	{
-		margin-bottom: 1em;
+		/*margin-bottom: 1em;*/
 	}
 
 	p
@@ -980,7 +980,7 @@ p {
 
 
 #map{
-  padding: 60px 0;
+  padding: 1.5rem 0;
   background: url(../images/mcmaster-university.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -989,7 +989,9 @@ p {
 }
 
 #location div img{
-  width:50px;
+	min-width: 35px;
+  width: 5%;
+  max-width: 40px;
 }
 
 /*********************************************************************************/
@@ -1003,6 +1005,8 @@ p {
 		text-align: center;
 		padding: 2em 0 2em 0;
 		box-shadow: inset 0 1px 0 0 #e6e6e6;
+		font-size: 1rem;
+		font-weight: 400;
 	}
 
 		#footer .copyright
