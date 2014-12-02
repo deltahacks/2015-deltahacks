@@ -937,6 +937,11 @@ p {
   font: 1.6rem 'Roboto-thin', sans-serif
 }
 
+#header-logo {
+	min-width: 300px;
+	width: 50%;
+}
+
 /*Description*/
 #description {
 	color: #474a47;
