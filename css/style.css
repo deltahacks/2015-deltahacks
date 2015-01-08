@@ -855,7 +855,7 @@
 	.main
 	{
 		position: relative;
-		/*margin-bottom: 2em;*/
+		padding-bottom: 2em; /*margin-bottom is weird since outside .main color is white so padding is white*/
 	}
 
 		.main > header
