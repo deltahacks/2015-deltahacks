@@ -989,6 +989,43 @@ p {
   max-width: 40px;
 }
 
+/*FAQ*/
+#faq {
+	background: #d5fff6;
+	padding-bottom: 2em;
+}
+
+#faq header {
+	margin-top: 0em;
+}
+
+#faq h3::after{
+  margin: 5px auto;
+}
+
+#faq .container {
+	width: 1000px;
+}
+
+#faq p {
+	text-align: left;
+	color: #000000;
+	/*font: 50 1.1em "Helvetica" sans-serif;*/
+	padding-bottom: 0.5em;
+}
+
+#faq img {
+    min-width: 200px;
+    width: 25%;
+    max-width: 250px;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.faq-footer {
+	background: #172c4d;
+}
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
