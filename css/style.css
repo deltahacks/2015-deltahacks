@@ -951,11 +951,41 @@ p {
 }
 
 #sponsor img {
-    min-width: 230px;
-    width: 25%;
-    max-width: 310px;
+	min-width: 260px;
+    max-width: 280px;
+    width: 100%;
     padding: 20px;
     vertical-align: middle;
+}
+
+#level0 img {
+	min-width: 140px;
+    max-width: 160px;
+}
+
+#level1 img {
+	min-width: 220px;
+    max-width: 240px;
+}
+
+#level2 img {
+	min-width: 260px;
+    max-width: 280px;
+}
+
+#level3 img {
+	min-width: 320px;
+    max-width: 340px;
+}
+
+#level4 img {
+	min-width: 360px;
+    max-width: 380px;
+}
+
+#title img {
+	min-width: 400px;
+    max-width: 420px;
 }
 
 #sponsor-images a {
