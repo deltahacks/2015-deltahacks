@@ -943,7 +943,9 @@ p {
 /*Sponsor*/
 #sponsor {
   background: white;
-	color: #666;
+  color: #666;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 #sponsor h2 {
