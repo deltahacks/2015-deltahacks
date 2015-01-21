@@ -1014,7 +1014,7 @@ p {
 }
 
 #location div img{
-	min-width: 35px;
+  min-width: 35px;
   width: 5%;
   max-width: 40px;
 }
