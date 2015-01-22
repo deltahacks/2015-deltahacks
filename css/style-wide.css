@@ -16,7 +16,12 @@
 
   .main > header
   {
-    padding: 2em 0 2em 0;
+    /*padding: 2em 0 2em 0;*/
+  }
+
+  #header header
+  {
+    padding: 2em 0 0em 0;
   }
 
   .main > .content

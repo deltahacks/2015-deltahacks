@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,100italic,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 /*
 	Tessellate by HTML5 UP
@@ -12,11 +12,6 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-
-	body
-	{
-		background: #F8F8F8;
-	}
 
 		body.is-loading *
 		{
@@ -34,9 +29,7 @@
 
 	body,input,textarea,select
 	{
-		font-family: 'Roboto-thin', 'sans-serif';
-		font-weight: 300;
-		font-size: 17pt;
+		font: 100 17px 'Roboto', 'sans-serif';
 		line-height: 1.75em;
 		color: #888;
 		-webkit-text-stroke: 0.1px;
@@ -173,7 +166,7 @@
 
 	p, ul, ol, dl, table
 	{
-		margin-bottom: 1em;
+		/*margin-bottom: 1em;*/
 	}
 
 	p
@@ -183,6 +176,7 @@
 
 	header
 	{
+		margin-top: 1em;
 		margin-bottom: 1em;
 	}
 
@@ -223,7 +217,7 @@
 		section,
 		article
 		{
-			margin-bottom: 3em;
+			/*margin-bottom: 3em;*/
 		}
 
 			section > :last-child,
@@ -656,6 +650,7 @@
 			color: #fff;
 			text-align: center;
 			text-decoration: none;
+			margin: 0 0.5em 0 0.5em;
 			-moz-transition: all 0.25s ease-in-out;
 			-webkit-transition: all 0.25s ease-in-out;
 			-o-transition: all 0.25s ease-in-out;
@@ -729,8 +724,8 @@
 
 		.feature-icon
 		{
-			display: inline-block;
-			position: relative;
+/*			display: inline-block;
+			position: relative;*/
 			padding-bottom: 5em;
 			margin-bottom: 2.75em;
 			cursor: default;
@@ -748,7 +743,7 @@
 				line-height: 2.1em;
 			}
 
-			.feature-icon:before
+/*			.feature-icon:before
 			{
 				content: '';
 				background: #666;
@@ -772,7 +767,7 @@
 				height: 4.35em;
 				background: #666;
 				margin-left: -0.5px;
-			}
+			}*/
 
 			.dark .feature-icon
 			{
@@ -834,7 +829,6 @@
 	#header
 	{
 		position: relative;
-		margin: 0;
 		background-image:			url('images/overlay.png'),			url('../images/header.jpg');
 		background-size:			auto,								cover;
 		background-position:		top left,							center center;
@@ -843,10 +837,6 @@
 		text-align: center;
 		color: #fff;
 	}
-
-		#header header
-		{
-		}
 
 			#header header p
 			{
@@ -865,19 +855,18 @@
 	.main
 	{
 		position: relative;
-		margin: 0;
-
+		padding-bottom: 2em; /*margin-bottom is weird since outside .main color is white so padding is white*/
 	}
 
 		.main > header
 		{
 			text-align: center;
-			margin: 0;
+			/*margin: 0;*/
 		}
 
 			.main > header p
 			{
-				margin: 2em 0 0 0;
+				margin: 1em 0 1em 0;
 				padding: 0;
 				text-align: center;
 			}
@@ -934,7 +923,12 @@
 
 p {
   padding: 10px;
-  font: 1.6rem 'Roboto-thin', sans-serif
+  font: 100 1.6rem 'Roboto', sans-serif
+}
+
+#header-logo {
+	min-width: 300px;
+	width: 50%;
 }
 
 /*Description*/
@@ -948,8 +942,10 @@ p {
 
 /*Sponsor*/
 #sponsor {
-    background: white;
-	color: #666;
+  background: white;
+  color: #666;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 #sponsor h2 {
@@ -957,11 +953,47 @@ p {
 }
 
 #sponsor img {
-    min-width: 250px;
-    width: 25%;
-    max-width: 900px;
+	min-width: 260px;
+    max-width: 280px;
+    width: 100%;
     padding: 20px;
     vertical-align: middle;
+}
+
+#level0 img {
+	min-width: 180px;
+    max-width: 200px;
+}
+
+#level1 img {
+	min-width: 220px;
+    max-width: 240px;
+}
+
+#level2 img {
+	min-width: 260px;
+    max-width: 280px;
+}
+
+#level3 img {
+	min-width: 320px;
+    max-width: 340px;
+}
+
+#level4 img {
+	min-width: 360px;
+    max-width: 380px;
+}
+
+#title img {
+	min-width: 400px;
+    max-width: 420px;
+}
+
+#sponsor-images a {
+    Text-decoration: none;
+    outline: none;
+    border: 0px none transparent;
 }
 
 /*Location*/
@@ -975,7 +1007,7 @@ p {
 
 
 #map{
-  padding: 60px 0;
+  padding: 1.5rem 0;
   background: url(../images/mcmaster-university.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -984,7 +1016,46 @@ p {
 }
 
 #location div img{
-  width:50px;
+  min-width: 35px;
+  width: 5%;
+  max-width: 40px;
+}
+
+/*FAQ*/
+#faq {
+	background: #d5fff6;
+	padding-bottom: 2em;
+}
+
+#faq header {
+	margin-top: 0em;
+}
+
+#faq h3::after{
+  margin: 5px auto;
+}
+
+#faq .container {
+	width: 1000px;
+}
+
+#faq p {
+	text-align: left;
+	color: #000000;
+	/*font: 50 1.1em "Helvetica" sans-serif;*/
+	padding-bottom: 0.5em;
+}
+
+#faq img {
+    min-width: 200px;
+    width: 25%;
+    max-width: 250px;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.faq-footer {
+	background: #172c4d;
 }
 
 /*********************************************************************************/
@@ -996,8 +1067,9 @@ p {
 		position: relative;
 		margin: 0;
 		text-align: center;
-		padding: 4em 0 8em 0;
+		padding: 2em 0 2em 0;
 		box-shadow: inset 0 1px 0 0 #e6e6e6;
+		font-size: 1rem;
 	}
 
 		#footer .copyright
