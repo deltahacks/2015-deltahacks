@@ -1055,7 +1055,7 @@ p {
 }
 
 #square {
-	max-height: 140px;
+	margin: -40px;
 }
 
 .faq-footer {
