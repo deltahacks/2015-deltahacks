@@ -954,8 +954,12 @@ p {
 }
 
 .schedule {
-	width: 49%;
+	width: 48%;
 	display: inline-block;
+}
+
+.schedule.sunday {
+	margin-left: 3%;
 }
 
 .schedule .time {
