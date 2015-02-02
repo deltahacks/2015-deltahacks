@@ -932,12 +932,36 @@ p {
 }
 
 /*Description*/
-#description {
+.description {
 	color: #474a47;
 }
 
-#description h2 {
+.description h2 {
 	color: #871d29;
+}
+
+/*Schedule*/
+.table td {
+	vertical-align: middle;
+	border-top: 1px solid #DDD;
+	text-transform: capitalize;
+}
+.table td:first-child {
+	text-transform: uppercase;
+}
+.table td, .table th {
+	padding: 5px 0;
+}
+
+.schedule {
+	width: 49%;
+	display: inline-block;
+}
+
+.schedule .time {
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
 }
 
 /*Sponsor*/
