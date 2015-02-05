@@ -953,6 +953,10 @@ p {
 	padding: 5px 0;
 }
 
+#scheduleTitle {
+	margin-top: 50px;
+}
+
 @media (max-width: 720px) {
 	.schedule {
 		width: 100%;
@@ -972,12 +976,12 @@ p {
 }
 
 .schedule {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .schedule .time {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 22px;
 	text-transform: uppercase;
 }
 
