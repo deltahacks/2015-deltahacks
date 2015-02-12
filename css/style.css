@@ -953,7 +953,7 @@ p {
 	padding: 5px 0;
 }
 
-#scheduleTitle {
+#first h2 {
 	margin-top: 50px;
 }
 
@@ -983,6 +983,29 @@ p {
 	font-weight: bold;
 	font-size: 22px;
 	text-transform: uppercase;
+}
+
+/* Judges */
+#judge .judgeImg {
+    margin-bottom: 15px;
+}
+
+#judge h4 {
+	font-size: 20px;
+}
+
+#judge p {
+	font-size: 18px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+#judge .judgeImg img {
+	width: 140px;
+}
+
+.judgeDesc {
+	padding-top: 60px;
 }
 
 /*Sponsor*/
