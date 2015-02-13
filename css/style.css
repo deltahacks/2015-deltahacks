@@ -1089,7 +1089,8 @@ p {
 
 /*FAQ*/
 #faq {
-	background: #d5fff6;
+	background-color: rgb(255, 218, 224);
+	/*background: #d5fff6;*/
 	padding-bottom: 2em;
 }
 
