@@ -843,7 +843,7 @@
 				margin-top: 1.25em;
 				font-weight: 100;
 				padding: 0;
-				font-size: 1.25em;
+				font-size: 1.5em;
 				line-height: 1.5em;
 				text-align: center;
 			}
@@ -923,7 +923,7 @@
 
 p {
   padding: 10px;
-  font: 100 1.6rem 'Roboto', sans-serif
+  font: 100 1.4em 'Roboto', sans-serif
 }
 
 #header-logo {
