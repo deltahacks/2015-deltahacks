@@ -45,7 +45,7 @@
 	}
 
 		h1 {
-			font: bold 5rem Open sans, sans-serif;
+			font: bold 4rem Open sans, sans-serif;
 		}
 
 		h2 {
@@ -1126,6 +1126,41 @@ p {
 
 .faq-footer {
 	background: #172c4d;
+	color: white;
+}
+
+/* prizes */
+#faq.prize-page {
+	background-color: rgb(255, 218, 224);
+}
+
+#faq .prizes {
+	/*background-color: rgba(255, 244, 206, 0.6);*/
+	background-color: rgba(0,0,0, 0.05);
+	margin-top: 50px;
+	padding: 20px;
+}
+
+#faq .prizes ul {
+	text-align: left;
+}
+
+#faq .prizes .place {
+	background-image: url(../images/star.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+#faq .prizes .place:not(:first-child) {
+	margin-top: 20px;
+}
+
+#faq .prizes .award {
+	margin-left: 40px;
+	list-style: disc;
+	font-size: 16px;
 }
 
 /*********************************************************************************/
